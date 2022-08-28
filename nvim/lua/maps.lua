@@ -13,6 +13,9 @@ vim.api.nvim_set_keymap(
 keymap.set('n', '+', '<C-a>')
 keymap.set('n', '-', '<C-x>')
 
+-- open nvim-tree
+keymap.set('n', 'tt', ':NvimTreeToggle')
+
 -- Delete a word backwards
 keymap.set('n', 'dw', 'vb"_d')
 
